@@ -1,27 +1,19 @@
 {
-  "name": "Clínica de la Mujer",
-  "short_name": "ClinicApp",
-  "description": "Una apñicación web progresiva para una Clínica de la Mujer",
+  "name": "KS Medical Clinic",
+  "short_name": "KS Medical",
+  "description": "Una aplicación web progresiva para una Clínica de la Mujer",
   "start_url": "/",
   "icons": [
     {
-      "src": "icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-384x384.png",
-      "sizes": "384x384",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-512x512.png",
+      "purpose": "maskable",
       "sizes": "512x512",
+      "src": "../icons/icon512_rounded.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "../icons/icon512_rounded.png",
       "type": "image/png"
     }
   ],
