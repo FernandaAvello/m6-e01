@@ -1,21 +1,4 @@
-## Uso de Hooks y manejo de errores en la Web del Hospital
-
-En este proyecto, se implementaron hooks para la gestión de estado y efectos secundarios, además de manejar errores y excepciones dentro del sistema del hospital.
-
-## Hook personalizado
-El hook personalizado `useDoctorForm` se utiliza para gestionar el estado y la lógica del formulario de registro de un nuevo doctor en una aplicación React. Este hook encapsula la lógica relacionada con la visibilidad del modal, la validación del formulario y el manejo de errores, proporcionando una interfaz limpia y reutilizable para los componentes que necesitan esta funcionalidad.
-
-## Creación de nueva sección Administración
-En esta ocasión se creó la sección para administrar los doctores disponibles en el hospital y un formulario para agregar, editar y eliminar nuevos doctores.
-Se utilizaron hooks en esta sección para la gestión del estado y de efectos secundarios.
-
-## Implementación de consumo de datos en Sección Pacientes
-En esta sección se implementaron las solicitudes GET, POST, PUT y DELETE utilizando la base de datos simulada. Se muestran los datos de los pacientes obtenidos en la interfaz y se manejan errores en el formulario de crear/edición.
-
-## Integración de TypeScript
-Se refactorizaron los componentes de `ListServices`, `ServiceCard`,`ListDoctors` y `DoctorCard`. Se aplicaron interfaces esos componenetes.
-
-## Credenciales de Acceso
+## Credenciales de Acceso Login
 
 **Administrador:**
 - **Username:** admin
